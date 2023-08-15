@@ -3,6 +3,7 @@
 @import url("./utilidades/cores.css");
 
 @import url("./global/header.css");
+@import url("./global/footer.css");
 
 /* UTILIDADES */
 @import url("./utilidades/componente.css");
@@ -20,3 +21,7 @@
 /* Seguros */
 
 @import url("./seguros/seguros.css");
+
+/* Termos */
+
+@import url("./termos/termos.css");
