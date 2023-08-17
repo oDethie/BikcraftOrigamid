@@ -17,7 +17,7 @@
 
 .seguro-conteudo {
   padding-top: 180px;
-  padding-bottom: 180px;
+  padding-bottom: 160px;
 }
 
 .seguro h2 {
@@ -26,6 +26,10 @@
 
 .seguro p {
   margin-bottom: 20px;
+}
+
+#seguro .footer-bg {
+  padding: 0;
 }
 
 @media (max-width: 800px) {
