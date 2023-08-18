@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Bicicletas Elétricas</title>
 
+  <link rel="icon" href="./favicon.svg" type="imagem/svg+xml">
+
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 
@@ -19,7 +22,7 @@
   <header class="header-bg">
     <div class="header">
       <a href="./index.html">
-        <img src="./img/bikcraft.svg" alt="Bikcraft">
+        <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
       </a>
 
       <nav aria-label="primaria">
@@ -41,13 +44,14 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span>.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <h1 data-anime="200" class="font-1-xxl cor-0 fadeInDown">Bicicletas feitas sob medida<span>.</span></h1>
+        <p data-anime="400" class="font-2-l cor-5 fadeInDown">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a data-anime="600" class="botao fadeInDown" href="./bicicletas.html">Escolha a sua</a>
       </div>
-      <div>
+      <picture data-anime="800" class="fadeInDown">
+        <source media="(max-width:800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta preta">
-      </div>
+      </picture>
     </div>
   </main>
 
@@ -216,7 +220,8 @@
       <p class="font-2-m cor-6 footer-copy">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
-
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

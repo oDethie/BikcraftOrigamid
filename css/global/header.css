@@ -34,11 +34,12 @@
   background-color: #fff;
   margin-top: 4px;
   position: absolute;
+  transition: all 0.3s;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativo-menu::after {
   width: 100%;
-  transition: all 0.3s;
 }
 
 @media (max-width: 800px) {
